@@ -18,6 +18,7 @@
 		#0d0221 100%
 	);
 	animation: roll 8s ease-out infinite;
+	overflow: hidden;
 }
 .loader::after {
 	content: "";
