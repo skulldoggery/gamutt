@@ -47,10 +47,6 @@ function PlayerInput() {
 	const startMatch = (choice) => {
 		batch( () => {
 			console.debug('GAMUTT is thinking...');
-			// normal = (choice – min(possChoices)) / (max(possChoices) – min(possChoices))
-			const normalizedChoice = (choice - 1.0) / 2.0;
-			console.debug('Normalized value for ' + choice + ' is ' + normalizedChoice);
-			trainingData.push(normalizedChoice);
 			
 			const gamutt = new recurrent.LSTMTimeStep({
 				hiddenLayers: [5],
@@ -89,6 +85,13 @@ function PlayerInput() {
 
 			console.debug('Player\'s actual move: ' + choiceOptions[choice]);
 			setPlayerChoices([...playerChoices(), choice]);
+			// Update training data for next round
+			// Maybe we could move the entire training segment post-move to improve percieved speed? 
+			// normal = (choice – min(possChoices)) / (max(possChoices) – min(possChoices))
+			const normalizedChoice = (choice - 1.0) / 2.0;
+			console.debug('Normalized value for ' + choice + ' is ' + normalizedChoice);
+			trainingData.push(normalizedChoice);
+			
 		}	);
 
 	};
