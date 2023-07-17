@@ -1,9 +1,9 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: The broken bits give it quirky charm!
 title: ''
-labels: ''
-assignees: ''
+labels: 'bug'
+assignees: 'skulldoggery'
 
 ---
 
