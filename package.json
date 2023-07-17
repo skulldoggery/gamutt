@@ -29,6 +29,7 @@
     "vitest": "^0.33.0"
   },
   "dependencies": {
+    "brain.js": "^2.0.0-beta.23",
     "brainjs": "^0.7.4",
     "solid-js": "^1.7.6"
   }
