@@ -1,13 +1,13 @@
-![Status: Under Construction](https://img.shields.io/badge/-Under_Construction-cyan)
-
-![Unit Tests Status](https://img.shields.io/github/actions/workflow/status/skulldoggery/gamutt/preflight.yml?label=Preflight+Tests&cacheSeconds=120)
-
+![Status: Under Construction](https://img.shields.io/badge/-Under_Construction-cyan)![Unit Tests Status](https://img.shields.io/github/actions/workflow/status/skulldoggery/gamutt/preflight.yml?label=Preflight+Tests&cacheSeconds=120)
 # GAMUTT
 
 A little demo of AI powered games using SolidJS, Brain.js, and TailwindCSS.
 
-## Initial release
-The minimally viable product will focus on a rock-paper-scissors implementation.
+> __Note__
+> 
+> This project is actively under construction.
+>
+> A minimally viable product will focus on a rock-paper-scissors implementation, and be considered the first release. 
 
 ## Games
 ### Bonfire
