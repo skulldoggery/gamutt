@@ -20,5 +20,7 @@ export default defineConfig({
 		environment: 'jsdom',
 		globals: true,
 		transformMode: { web: [/\.[jt]sx?$/] },
+		name: 'GAMUTT',
+		
 	},
 });
