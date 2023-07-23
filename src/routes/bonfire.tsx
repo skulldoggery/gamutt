@@ -162,7 +162,7 @@ function Bonfire() {
 						{ 
 							(gChoice, i) =>{
                             
-		                    console.debug('Rendering Match History');
+								console.debug('Rendering Match History');
 								return (
 									<li class='flex flex-row'>
 										<div class=''>{i()}:</div>
