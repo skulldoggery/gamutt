@@ -1,4 +1,4 @@
-import { For, Index, batch, createEffect, createMemo, createSignal } from 'solid-js';
+import { For, batch, createEffect, createMemo, createSignal } from 'solid-js';
 import { recurrent } from 'brain.js';
 import { clamp } from '@/utilities/data';
 import Scorecard from '@/components/Scorecard';
