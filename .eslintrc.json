@@ -42,5 +42,6 @@
         {
           "files": ["**/*.{ts,tsx,js,jsx}"]
         }
-      ]
+      ],
+    "ignorePatterns": ["*.config.js"]
 }
