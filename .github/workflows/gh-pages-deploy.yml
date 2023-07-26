@@ -20,11 +20,10 @@ jobs:
         with:
           node-version: 18.x
           cache: 'npm'
-          
-      - run: npm ci
+    
       - name: Build
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Upload production-ready build files
