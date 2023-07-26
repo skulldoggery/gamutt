@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
-  "description": "",
+  "name": "gamutt",
+  "version": "0.1.0",
+  "description": "A little experiment in AI-poweder, browser-based games using SolidJS, Brain.JS, and TrailwindCSS.",
   "scripts": {
     "start": "vite",
     "dev": "vite",
