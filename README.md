@@ -1,4 +1,6 @@
-![Status: Under Construction](https://img.shields.io/badge/-Under_Construction-cyan)![Unit Tests Status](https://img.shields.io/github/actions/workflow/status/skulldoggery/gamutt/preflight.yml?label=Preflight+Tests&cacheSeconds=120)
+![Status: Under Construction](https://img.shields.io/badge/-Under_Construction-cyan)  
+[![Preflight Tests](https://github.com/skulldoggery/gamutt/actions/workflows/preflight.yml/badge.svg?branch=main)](https://github.com/skulldoggery/gamutt/actions/workflows/preflight.yml) [![GH Pages Deploy](https://github.com/skulldoggery/gamutt/actions/workflows/gh-pages-deploy.yml/badge.svg?branch=main)](https://github.com/skulldoggery/gamutt/actions/workflows/gh-pages-deploy.yml)  
+
 # GAMUTT
 
 A little demo of AI powered games using SolidJS, Brain.js, and TailwindCSS.
